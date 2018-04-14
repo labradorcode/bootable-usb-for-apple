@@ -3,7 +3,9 @@ Image of bootable USB with GRUB for Apple Mac
 
 
 Load image to USB flash drive
-1. gunzip -c /path/to/usb.img.gz | dd of=/dev/sdX
+1. cfdisk /dev/sdX
+2. delete all partitions and create one of 512M size
+2. gunzip -c /path/to/usb.img.gz | dd of=/dev/sdX
 
 If you want to customize you need hfsprogs
 1. (debian/ubuntu) apt-get install hfsprogs
