@@ -32,3 +32,7 @@ Directories
 - boot/grub/grub.cfg - grub config
 
 Example GRUB config in grub.cfg
+
+
+
+source: https://medium.com/@mmiglier/ubuntu-installation-on-usb-stick-with-pure-efi-boot-mac-compatible-469ad33645c9
