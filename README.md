@@ -18,7 +18,7 @@ How to create bootable USB with linux / windows for Apple iMac MacBook
 11. hfs-bless "/mnt/sdX1/boot/efi/EFI/Linux/System/Library/CoreServices/boot.efi"
 12. copy grub.cfg to /mnt/sdX1/boot/grub
 13. umount /mnt/sdX1
-14. fsck.hfsplus /dev/sdb1
+14. fsck.hfsplus /dev/sdX1
 
 
 If you want to customize you need hfsprogs
